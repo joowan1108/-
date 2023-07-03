@@ -15,10 +15,10 @@ int main (){
     scanf("%d", &target);
     int find = LSearch(arr, sizeof(arr)/sizeof(int), target);
     if (find>=0){
-        printf("%d에 있어", find);
+        printf("target is in %d index", find);
     }
     else{
-        printf("없음");
+        printf("Target does not exist");
     }
     return 0;   
 }
