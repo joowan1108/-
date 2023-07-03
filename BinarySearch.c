@@ -27,6 +27,7 @@ int binarySearch(int arr[], int len, int target){
     return -1;
 }
 int main (){
+ //arr needs to be sorted for binary search to work
     int arr[]={1, 3, 5, 7, 9};
     int target;
     scanf("%d", &target);
